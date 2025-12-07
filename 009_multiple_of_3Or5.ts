@@ -3,6 +3,7 @@
 // Finish the solution so that it returns the sum of all the multiples of 3 or 5 below the number passed in.
 // Additionally, if the number is negative, return 0.
 // Note: If a number is a multiple of both 3 and 5, only count it once.
+// Running the code: npx ts-node .\009_multiple_of_3Or5.ts
 export class Challenge {
   static solution(number: number): number {
     let iter: number = number - 1
