@@ -5,13 +5,7 @@
 
 def move_zeros(lst):
     new_ary = [num for num in lst if num != 0]
-    zeros_ary = [num for num in lst if num == 0]
-    # for num in lst :
-    #     if (num == 0) :
-    #         zeros_ary.append(num)
-    #     else:
-    #         new_ary.append(num)
-    
+    zeros_ary = [num for num in lst if num == 0]    
     return new_ary + zeros_ary
 
 print(move_zeros([1, 0, 1, 2, 0, 1, 3]))
